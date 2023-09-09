@@ -10,7 +10,8 @@ selector.addEventListener("change", (e) => {
       case "synthesis": searchWord = "総合"; break;
       case "sunshine": searchWord = "サンシャイン"; break;
       case "niji": searchWord = "虹ヶ咲"; break;
-      case "super-star": searchWord = "蓮ノ空"; break;
+      case "super-star": searchWord = "スーパースター"; break;
+      case "hasu": searchWord = "蓮ノ空"; break;
       case "other": searchWord = "誕"; break;
     }
 
