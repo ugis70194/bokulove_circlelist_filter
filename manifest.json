@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "bokulove circle list filter",
+  "description": "僕ラブサークル配置リストに簡易的なフィルターを提供します",
+  "permissions": ["activeTab", "scripting"],
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "bokulove_filter.png"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": ["http://www.puniket.com/lovelive/*"],
+      "all_frames": true,
+      "js": ["background.js"]
+    }
+  ]
+}
